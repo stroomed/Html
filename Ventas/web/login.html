@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Sistema de ventas online</title>
+<meta name="viewport" content="width=device-width">
+
+<link href="content/css/demo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <center>
+    <div id="top"></div>
+	<div class="subMenu" >
+	 	<div class="inner" align="center">                    
+                    <a href="login.html" class="subNavBtn"><center>Home</center></a>
+		</div>
+	</div>
+
+	<div class="section s1">
+		<div class="inner ">
+                    <form name="frmPrincipal" method="post" action="ServletInicioSesion">
+                    <table>              
+                  <tr>
+                    <td>Usuario</td>
+                    <td><input type="text" name="txtUsuario" id="txtUsuario" /></td>
+                  </tr>
+                  <tr>
+                    <td>Clave</td>
+                    <td><input type="password" name="txtClave" id="txtClave" /></td>
+                  </tr>
+                  <tr>
+                      <input type="text" name="txtTiempo" maxlength="4" id="session" value="9999" readonly style="visibility:hidden"/>          
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td><input type="submit" name="btnEntrar" id="btnEntrar" value="Entrar" /></td>
+                  </tr>
+                        
+            </table>
+                        </form> 
+		</div>
+	</div>
+    <div class="subMenu" >
+	 	<div class="inner"></div>
+	</div>
+    </center>
+</body>
+</html>
